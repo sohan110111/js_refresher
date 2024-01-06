@@ -1,15 +1,15 @@
-// var testVariable = "testName";
-// function func(topic) {
-//     var testVariable = "changed";
-//     console.log(topic);
-// }
+/* var testVariable = "testName";
+function func(topic) {
+    var testVariable = "changed";
+    console.log(topic);
+}
 
-// func("testFunc");
-// console.log(testVariable);
+func("testFunc");
+console.log(testVariable); */
 
 
 
-const a = {
+/* const a = {
     name: "test",
     age: 20,
     func: function() {
@@ -20,3 +20,13 @@ const a = {
 console.log(a.name);
 a.name = "changed Name";
 console.log(a.name);
+a.func();
+a.new = true;
+console.log(a.new); */
+
+
+const hello = function hello() {
+    console.log("Hello World!");
+}
+
+hello();
