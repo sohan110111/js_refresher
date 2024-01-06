@@ -25,11 +25,21 @@ a.new = true;
 console.log(a.new); */
 
 
-// const hello = function hello() {
-//     console.log("Hello World!");
-// }
+/* const hello = function hello() {
+    console.log("Hello World!");
+}
 
-// hello();
+hello(); */
 
-const hello = (a, b) => a+b;
+/* const hello = (a, b) => a+b;
 console.log(hello(5,6));
+ */
+
+const hello = (a, b) => ({
+    a,
+    b,
+    c : a+b
+});
+console.log(hello(5,6));
+
+
